@@ -1,0 +1,84 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.collapse {
+    width: 80%;
+}
+
+.i {
+    width: 4%;
+}
+
+.i:hover {
+    opacity: 50%;
+    color: grey;
+}
+
+.div_i {
+   display: flex;
+   justify-content: end;
+   gap: 3%;
+}
+
+nav {
+    position: fixed;
+}
+
+H1 {
+    text-align: center;
+ 
+    font-size: 30pt;
+}
+
+
+.container_s1 {
+    display: flex;
+    width: 100vw;
+    gap: 15px;
+
+    justify-content: center;
+}
+
+.card {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 70%;
+}
+
+.card:hover {
+    opacity: 90%;
+    background-color: #242424;
+    color: white;
+    transition: 1s;
+}
+
+.s2 {
+    margin-top: 20px;
+    width: 100vw;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-image: url(Img/background.jpg);
+    background-attachment: fixed;
+    height: 85vw;
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.nav-item:hover {
+    opacity: 50%;
+    color: grey;
+    
+}
